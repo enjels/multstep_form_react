@@ -5,7 +5,7 @@ export function useForm(steps) {
 
     return {
         currentStep,
-        currentComponent: steps[currentStep]
+        currentComponent: steps[currentStep],
 
 
     }
