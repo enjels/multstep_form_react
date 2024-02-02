@@ -17,7 +17,7 @@ const ReviewForm = ({ data, updateFieldHandler }) => {
             value="unsatisfield"
             name="review"
             required
-            checked={data.review == "unsatisfield"}
+            checked={data.review == "unsatisfied"}
             onChange={(e) => updateFieldHandler("review", e.target.value)}
           />
           <BsFillEmojiFrownFill />
