@@ -42,7 +42,7 @@ function App() {
       <div className="header">
         <h2>Deixe sua avaliação</h2>
         <p>
-          ficamos felizes com a sua compra,utilize o formulário abaixo para
+          ficamos felizes com a sua compra, utilize o formulário abaixo para
           avaliar o produto
         </p>
       </div>
