@@ -24,14 +24,14 @@ function App() {
 
   const updateFieldHandler = (key, value) => {
     setData((prev) => {
-      return {...prev, [key]: value}
-    })
+      return { ...prev, [key]: value };
+    });
   };
 
   const formComponents = [
     <UserForm data={data} updateFieldHandler={updateFieldHandler} />,
     <ReviewForm data={data} updateFieldHandler={updateFieldHandler} />,
-    <Thanks data={data} updateFieldHandler={updateFieldHandler} />,
+    <Thanks data={data} />,
   ];
 
   const { currentStep, currentComponent, changeStep, isLastStep, isFirstStep } =
