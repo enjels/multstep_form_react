@@ -14,7 +14,7 @@ const ReviewForm = ({ data, updateFieldHandler }) => {
         <label className="radio-container">
           <input
             type="radio"
-            value="unsatisfield"
+            value="unsatisfied"
             name="review"
             required
             checked={data.review == "unsatisfied"}
