@@ -47,12 +47,9 @@ function App() {
         </p>
       </div>
       <div className="form-container">
-<<<<<<< HEAD
 
-        {Steps}
-=======
         <Steps currentStep={currentStep} />
->>>>>>> v0.1
+
         <form onSubmit={(e) => changeStep(currentStep + 1, e)}>
           <div className="inputs-container">{currentComponent}</div>
           <div className="actions">
