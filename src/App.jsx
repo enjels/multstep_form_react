@@ -27,7 +27,7 @@ function App() {
         </p>
       </div>
       <div className="form-container">
-        {Steps}
+        <Steps currentStep={currentStep} />
         <form onSubmit={(e) => changeStep(currentStep + 1, e)}>
           <div className="inputs-container">{currentComponent}</div>
           <div className="actions">
